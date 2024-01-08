@@ -1,0 +1,91 @@
+/* Main carousel styling */
+.carrousel {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 415px;
+    margin: auto auto 30px auto;
+}
+
+/* Navigation arrows styling */
+.Arrow {
+    position: absolute;
+    width: 45px;
+    z-index: 1;
+}
+
+/* Left arrow styling */
+.Arrow-left {
+    margin-left: 25px;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/* Right arrow styling */
+.Arrow-right {
+    margin-right: 25px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Hover effect for arrows */
+.Arrow:hover {
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+/* Styling for carousel images */
+.carrousel-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 415px;
+    opacity: 0;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+}
+
+/* Styling for the active image */
+.carrousel-img.active {
+    opacity: 1;
+}
+
+/* Counter styling for images */
+.counter {
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+}
+
+/* Adaptation for mobile/tablet screens */
+@media screen and (max-width: 1439px) {
+    .carrousel {
+        height: 255px;
+        margin: auto auto 15px auto;
+    }
+
+    .Arrow {
+        width: 15px;
+    }
+
+    .Arrow-left {
+        margin-left: 5px;
+    }
+
+    .Arrow-right {
+        margin-right: 5px;
+    }
+
+    .carrousel-img {
+        height: 255px;
+    }
+}

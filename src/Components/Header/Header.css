@@ -1,0 +1,59 @@
+/* Header styling */
+header {
+    display: inline-flex;
+    align-items: center;
+    margin: 40px 10%;
+    width: 80%;
+}
+
+/* Styles for the logo image within the header */
+header>img {
+    height: 68px;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Styles for navigation links */
+.link-site {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    color: #ff6060;
+    margin: auto 25px;
+    text-decoration: none;
+}
+
+/* Hover effect for navigation links */
+.link-site:hover {
+    color: #000000;
+}
+
+/* Active state styling for menu links */
+.link-menu.active {
+    color: #ff6060;
+    border-bottom: 1px solid #ff6060;
+}
+
+/* Media query for screens up to 1439px width */
+@media screen and (max-width: 1439px) {
+    header {
+        margin: 40px 2.5%;
+        width: 95%;
+    }
+
+    header>img {
+        height: 47px;
+        margin-left: 2.5%;
+    }
+
+    .link-site {
+        font-size: 18px;
+        margin: auto 5px;
+        margin-right: 3%;
+    }
+}

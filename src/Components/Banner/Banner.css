@@ -1,0 +1,50 @@
+/* Banner styling */
+.banner {
+    position: relative;
+    height: 225px;
+    margin-bottom: 35px;
+    border-radius: 25px;
+}
+
+/* Image styling within the banner */
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/* Dark overlay styling within the banner */
+.banner-dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+/* Text styling within the banner */
+.banner-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 142.6%;
+}
+
+/* Media query for screens up to 1439px width */
+@media screen and (max-width: 1439px) {
+    .banner-txt {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 100%;
+        left: 15px;
+        transform: translateY(-50%);
+    }
+}

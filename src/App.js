@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import RoutesPath from './Routes/RoutesPath'
 
+/**
+ * The `function App() {` is defining the functional component `App`.
+ * This component returns a JSX element that represents the structure and content of the application.
+ *
+ * @function
+ * @name App
+ * @kind function
+ * @returns {React.JSX.Element}
+ */
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<RoutesPath />
+		</div>
+	)
 }
 
-export default App;
+export default App

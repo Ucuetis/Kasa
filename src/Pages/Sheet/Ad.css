@@ -1,0 +1,152 @@
+/* Style for the overall Fiche component */
+.Fiche {
+    color: #ff6060;
+}
+
+/* Styles for the container of owner's accommodations */
+.logements-propietaire {
+    display: inline-flex;
+    width: 100%;
+}
+
+/* Styles for individual accommodation cards within the owner's accommodations */
+.logements-propietaire > div {
+    flex: 1 0 auto;
+}
+
+/* Styles for the information section of accommodations */
+.information-logements {
+    flex-direction: column;
+}
+
+/* Styles for the title of an accommodation */
+.titre-logement {
+    color: #FF6060;
+    font-size: 36px;
+}
+
+/* Styles for the location of an accommodation */
+.endroit-logement {
+    display: block;
+    color: #FF6060;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Styles for the owner's information section */
+.information-propietaire {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+/* Styles for the owner's name */
+.nom-proprietaire {
+    color: #FF6060;
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+/* Styles for the owner's profile photo */
+.photo-propietaire {
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+/* Styles for the star rating section */
+.note {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Styles for individual star icons */
+.etoile {
+    height: 30px;
+    width: 30px;
+}
+
+/* Styles for the amenities description section */
+.description-equipements {
+    display: inline-flex;
+    gap: 0 75px;
+    line-height: 22.5px;
+    list-style: none;
+    margin-top: 25px;
+    width: 100%;
+}
+
+/* Styles for individual amenity dropdowns */
+.description-equipements > .dropdown {
+    width: 50%;
+}
+
+/* Media query for screens up to 1439px width */
+@media screen and (max-width: 1439px) {
+    .logements-propietaire {
+        display: block;
+    }
+
+    .titre-logement {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .endroit-logement {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .tags {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 10px 0;
+    }
+
+    .tags > .tag {
+        margin-left: 0px;
+        min-width: 50px;
+    }
+
+    .proprietaire-note {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .information-propietaire {
+        margin-bottom: unset;
+        width: 100%;
+    }
+
+    .photo-propietaire {
+        height: 32px;
+        width: 32px;
+    }
+
+    .etoile {
+        height: 25px;
+        width: 25px;
+    }
+
+    .description-equipements {
+        display: block;
+    }
+
+    .description-equipements > .dropdown {
+        width: 100%;
+    }
+
+    .dropdown {
+        margin-bottom: 20px;
+    }
+}

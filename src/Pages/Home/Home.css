@@ -1,0 +1,35 @@
+/* Styles for the accommodations list */
+.accommodations-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px 60px;
+    padding: 55px 50px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+}
+
+/* Media query for screens up to 1439px width */
+@media screen and (max-width: 1439px) {
+    /* Styles for the welcome banner */
+    .Welcome > .banner {
+        height: 110px;
+        margin-bottom: 20px;
+    }
+
+    .accommodations-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px 30px;
+        padding: 25px 20px;
+        background-color: unset;
+    }
+}
+
+/* Media query for screens up to 919px width */
+@media screen and (max-width: 919px) {
+    .accommodations-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0;
+        background-color: unset;
+    }
+}
