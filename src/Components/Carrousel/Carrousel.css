@@ -66,8 +66,8 @@
     line-height: 142.6%;
 }
 
-/* Adaptation for mobile/tablet screens */
-@media screen and (max-width: 1439px) {
+/* Adaptation for mobile/tablet screens 1024px*/
+@media screen and (max-width: 1024px) {
     .carrousel {
         height: 255px;
         margin: auto auto 15px auto;

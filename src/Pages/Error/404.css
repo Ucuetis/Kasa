@@ -25,8 +25,8 @@
   text-align: center; 
 }
 
-/* Media query for screens up to 1439px width */
-@media screen and (max-width: 1439px) {
+/* Media query for screens up to 1024px width */
+@media screen and (max-width: 1024px) {
   .title-404 {
     font-size: 96px;
   }

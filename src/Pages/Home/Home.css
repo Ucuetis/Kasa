@@ -8,8 +8,8 @@
     background-color: #f6f6f6;
 }
 
-/* Media query for screens up to 1439px width */
-@media screen and (max-width: 1439px) {
+/* Media query for screens up to 1024px width */
+@media screen and (max-width: 1024px) {
     /* Styles for the welcome banner */
     .Welcome > .banner {
         height: 110px;
@@ -24,8 +24,8 @@
     }
 }
 
-/* Media query for screens up to 919px width */
-@media screen and (max-width: 919px) {
+/* Media query for screens up to 479px width */
+@media screen and (max-width: 479px) {
     .accommodations-list {
         grid-template-columns: 1fr;
         gap: 20px;
