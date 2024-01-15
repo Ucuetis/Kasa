@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "../Layouts/Layout";
 import Home from "../Pages/Home/Home";
 import Accommodation from '../Pages/Accommodation/Accommodation';
@@ -15,7 +15,7 @@ import Error404 from "../Pages/Error/404";
  */
 function RoutesPath() {
     return (
-        <HashRouter>
+        <Router>
             <Layout>
                 <Routes>
                     {/* Default route for the Home component */}
@@ -31,7 +31,7 @@ function RoutesPath() {
                     <Route path="*" element={<Error404 />} />
                 </Routes>
             </Layout>
-        </HashRouter>
+        </Router>
     );
 }
 
