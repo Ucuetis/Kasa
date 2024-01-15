@@ -10,7 +10,7 @@ import Error404 from "../Pages/Error/404";
 /**
  * Represents the routing configuration for the application.
  * 
- * @type {HashRouter} The HashRouter instance.
+ * @type {BrowserRouter} The BrowserRouter instance.
  * @returns {JSX.Element} The JSX element representing the routing configuration.
  */
 function RoutesPath() {
