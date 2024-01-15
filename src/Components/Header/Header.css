@@ -39,7 +39,7 @@ nav {
     border-bottom: 1px solid #ff6060;
 }
 
-/* Media query for screens up to 1024px width */
+/* Media query for screens up to 1024 px width */
 @media screen and (max-width: 1024px) {
     header {
         margin: 40px 2.5%;

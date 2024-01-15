@@ -38,7 +38,7 @@
     line-height: 142.6%;
 }
 
-/* Media query for screens up to 1024px width */
+/* Media query for screens up to 1024 px width */
 @media screen and (max-width: 1024px) {
     .banner-txt {
         font-size: 24px;

@@ -8,7 +8,7 @@
     background-color: #f6f6f6;
 }
 
-/* Media query for screens up to 1024px width */
+/* Media query for screens up to 1024 px width */
 @media screen and (max-width: 1024px) {
     /* Styles for the welcome banner */
     .Welcome > .banner {
@@ -24,7 +24,7 @@
     }
 }
 
-/* Media query for screens up to 479px width */
+/* Media query for screens up to 479 px width */
 @media screen and (max-width: 479px) {
     .accommodations-list {
         grid-template-columns: 1fr;

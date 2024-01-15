@@ -58,7 +58,7 @@
     border-bottom-right-radius: 5px;
 }
 
-/* Media query for screens up to 1024px width */
+/* Media query for screens up to 1024 px width */
 @media screen and (max-width: 1024px) {
     .collapse {
         width: 100%;

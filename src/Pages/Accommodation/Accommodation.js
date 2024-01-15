@@ -1,5 +1,5 @@
 import React from "react";
-import "./Ad.css";
+import "./Accommodation.css";
 import { useParams, Navigate } from 'react-router-dom';
 import HousingList from "../../Assets/Data/accommodation.json";
 import Carrousel from "../../Components/Carrousel/Carrousel";
@@ -9,16 +9,16 @@ import EmptyStar from "../../Assets/Img/EmptyStar.svg";
 import Collapse from "../../Components/Collapse/Collapse";
 
 /**
- * The `Sheet` function is the component that renders the details of the housing listing. 
+ * The `Accommodation` function is the component that renders the details of the housing listing. 
  * It retrieves the `id` parameter from the URL using the `useParams` hook from the `react-router-dom` library. 
  * It then finds the corresponding housing listing object from the `HousingList` array using the `id`.
  * 
  * @function
- * @name Sheet
+ * @name Accommodation
  * @kind function
  * @returns {React.JSX.Element}
  */
-function Sheet() {
+function Accommodation() {
 
     const id = useParams();
     const ficheLogement = HousingList.find(logement => logement.id === id.id);
@@ -94,4 +94,4 @@ function Sheet() {
     )
 }
 
-export default Sheet;
+export default Accommodation;
