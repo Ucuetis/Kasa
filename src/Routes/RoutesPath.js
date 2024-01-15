@@ -21,7 +21,7 @@ function RoutesPath() {
                     {/* Default route for the Home component */}
                     <Route path="/" element={<Home />} />
 
-                    {/* Route for the Sheet component */}
+                    {/* Route for the Accommodation component */}
                     <Route path="/logement/:id" element={<Accommodation />} />
 
                     {/* Route for the APropos component */}
