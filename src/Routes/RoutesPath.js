@@ -6,12 +6,14 @@ import Accommodation from '../Pages/Accommodation/Accommodation';
 import APropos from "../Pages/A-propos/APropos";
 import Error404 from "../Pages/Error/404";
 
-
 /**
- * Represents the routing configuration for the application.
+ * The `RoutesPath` function is a React component that defines the routes for the application using the `react-router-dom` library. 
+ * It sets up the routing configuration for different paths and maps them to specific components.
  * 
- * @type {BrowserRouter} The BrowserRouter instance.
- * @returns {JSX.Element} The JSX element representing the routing configuration.
+ * @function
+ * @name RoutesPath
+ * @kind function
+ * @returns {React.JSX.Element}
  */
 function RoutesPath() {
     return (
